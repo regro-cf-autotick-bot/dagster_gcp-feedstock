@@ -24,9 +24,9 @@ requirements:
     - dagster
     - dagster_pandas
     - google-api-python-client
-    - google-cloud-bigquery >=1.19.*,<=1.21.0
-    - google-cloud-storage <1.23.0
-    - google-resumable-media >=0.3.1
+    - google-cloud-bigquery >=1.19
+    - google-cloud-storage
+    - google-resumable-media
     - oauth2client
 
 test:
@@ -45,4 +45,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - xhochy
+    - conda-forge/dagster
